@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Product CRUD</title>
+
+  <style>
+    body {
+      text-align: center;
+    }
+    #products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .product-card {
+      border: 1px solid #ddd;
+      padding: 1rem;
+    }
+    .update { background-color: #007bff; color: white; }
+    .delete { background-color: #dc3545; color: white; }
+    #create-btn {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: #28a745;
+      color: white;
+      /* border: none; */
+      border-radius: 5px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>Simple Product CRUD</h1>
+  <div id="products"></div>
+  <button id="create-btn">Create Product</button>
+  <script src="app.js"></script>
+</body>
+
+</html>
